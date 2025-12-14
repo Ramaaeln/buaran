@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root{
+  --colorPrimary : #239BA7;
+  --colorSecondary : #186B72;
+  --colorTertiary : #E0E0E0;
+}
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
