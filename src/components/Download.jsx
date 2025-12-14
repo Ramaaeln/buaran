@@ -39,7 +39,7 @@ export default function Download() {
             </div>
 
             <a
-              href="/src/assets/apk/SAPABUARAN.apk"
+              href="https://github.com/Ramaaeln/buaran/releases/download/v1.0.0/SAPABUARAN.apk"
               className="w-full sm:w-auto flex justify-center items-center gap-3
                          bg-white text-[#186B72]
                          px-6 py-3 rounded-xl font-semibold

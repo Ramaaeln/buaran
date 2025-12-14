@@ -47,7 +47,7 @@ export default function Navigations() {
 
         <a
           href="#download"
-          className="hidden md:inline-block px-4 py-2 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition"
+          className="hidden md:inline-block px-4 py-2 bg-[#186B72] text-white rounded-xl shadow-md hover:bg-blue-700 transition"
         >
           Download
         </a>
@@ -89,7 +89,7 @@ export default function Navigations() {
             <a
               href="#download"
               onClick={() => setOpen(false)}
-              className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl text-center"
+              className="mt-4 px-4 py-2 bg-[#186B72] text-white rounded-xl text-center"
             >
               Download
             </a>
