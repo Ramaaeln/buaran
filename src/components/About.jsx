@@ -1,3 +1,5 @@
+import aboutImg from "@/assets/img/about.png";
+
 export default function About() {
   return (
     <section
@@ -32,7 +34,7 @@ export default function About() {
 
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
-            src="/src/assets/img/about.png"
+            src={aboutImg}
             alt="Ilustrasi SAPA BUARAN"
             className="w-full max-w-md sm:max-w-lg lg:max-w-xl object-contain"
           />

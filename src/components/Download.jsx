@@ -1,3 +1,5 @@
+import aboutImg from "@/assets/img/about.png";
+import gplay from "@/assets/google-play-line.svg";
 export default function Download() {
   return (
     <section
@@ -26,7 +28,7 @@ export default function Download() {
                               px-6 py-3 rounded-xl font-semibold
                               cursor-not-allowed">
                 <img
-                  src="/src/assets/google-play-line.svg"
+                  src={gplay}
                   alt="Google Play"
                   className="w-5 sm:w-6 opacity-60"
                 />
@@ -54,7 +56,7 @@ export default function Download() {
         <div className="relative flex justify-center mt-6 lg:mt-0">
           <div className="absolute -inset-6 bg-white/10 rounded-3xl blur-2xl" />
           <img
-            src="/src/assets/img/about.png"
+            src={aboutImg}
             alt="Preview Aplikasi SAPA BUARAN"
             className="relative w-56 sm:w-64 md:w-72 lg:w-80 drop-shadow-2xl"
           />

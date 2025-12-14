@@ -1,8 +1,10 @@
+import heroImg from "@/assets/img/hero.png";
+
 export default function Hero() {
   return (
     <section className="relative -mt-18 w-full min-h-[100svh] flex items-center justify-center">
       <img
-        src="/src/assets/img/hero.png"
+        src={heroImg}
         alt="SAPA BUARAN"
         className="absolute inset-0 w-full h-full object-cover"
       />

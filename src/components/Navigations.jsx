@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import logosImg from "@/assets/img/logos.png";
+
 
 export default function Navigations() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +27,7 @@ export default function Navigations() {
         `}
       >
         <a href="#" className="flex items-center gap-2">
-          <img src="/src/assets/img/logos.png" alt="App Logo" className="w-10" />
+          <img src={logosImg} alt="App Logo" className="w-10" />
           <span
             className={`font-semibold text-lg transition ${
               scrolled ? "text-gray-800" : "text-white"

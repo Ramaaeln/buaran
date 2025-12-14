@@ -1,3 +1,5 @@
+import logosImg from "@/assets/img/logos.png";
+
 export default function Footer() {
   return (
     <footer className="w-full bg-[#186B72] text-white">
@@ -8,7 +10,7 @@ export default function Footer() {
         <div className="text-center sm:text-left">
           <div className="flex items-center justify-center sm:justify-start gap-3">
             <img
-              src="/src/assets/img/logos.png"
+              src={logosImg}
               alt="SAPA BUARAN"
               className="w-10"
             />
